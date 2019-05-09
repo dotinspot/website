@@ -1,0 +1,128 @@
+body{
+    font-family: 'Josefin Sans', sans-serif !important;
+    /*width:1300px;*/
+}
+
+.main_icon{
+    max-height: 12em;
+}
+
+.row_header_1{
+    margin-top: 30px;
+}
+.row_header_2{
+    margin-bottom:3em;
+}
+
+.hello {
+    font-size: 11vw;
+    line-height: 11vw;
+    font-weight: 600;
+}
+.subtitle_container{
+    text-align: right;
+}
+.subtitle{
+    font-size: 4vw;
+    letter-spacing: -0.04em;
+}
+.mail_icon{
+    /*width: 275px;*/
+    margin-top: 2.5em;
+}
+
+.section_name{
+    color: #5E3B73;
+    padding-left: 1em;
+    text-align: left;
+}
+.section_image{
+    width: 100%;
+}
+.icons_container{
+    padding-top: 40px;
+}
+.social_network_icon{
+    margin-bottom:35px;
+}
+.social_network_icon img{
+    width: 35px;
+}
+.mail_link_container{
+    text-align: center;
+}
+@media (min-width: 1920px) {
+    .hello {
+        font-size: 8vw;
+    }
+    .main_icon{
+        max-height: 8vw;
+    }
+    .subtitle{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hello {
+        font-size: 15vw;
+        line-height: 15vw;
+    }
+    .main_icon{
+        max-height: 15vw;
+    }
+    .subtitle{
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 992px) {
+    .hello {
+        font-size: 18vw;
+        line-height: 18vw;
+    }
+    .main_icon{
+        max-height: 18vw;
+    }
+    .subtitle{
+        font-size: 6vw;
+    }
+}
+@media screen and (max-width: 576px) {
+    .hello {
+        font-size: 23vw;
+        line-height: 23vw;
+    }
+    .main_icon{
+        max-height: 23vw;
+    }
+    .subtitle{
+        font-size: 8vw;
+    }
+
+    /*.social_network_icon:first-of-type{*/
+        /*margin-left: 10vw !important;*/
+    /*}*/
+}
+@media screen and (max-width: 992px) {
+    .subtitle_container{
+        text-align: left;
+    }
+    .mail_link_container{
+        text-align: right;
+    }
+
+    .section_name{
+        padding-left: 0.5em;
+    }
+
+    .icons_container{
+        display: inline-flex;
+    }
+
+    .social_network_icon{
+        margin-right: 35px;
+    }
+    .big_link{
+        margin-bottom: 20px;
+    }
+}
